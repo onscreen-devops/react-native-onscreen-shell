@@ -10,6 +10,7 @@ npm install react-native-onscreen-shell
 
 ```js
 import { multiply } from "react-native-onscreen-shell";
+import { OnscreenShell } from "react-native-onscreen-shell";
 
 // ...
 

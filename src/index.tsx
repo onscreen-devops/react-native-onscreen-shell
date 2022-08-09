@@ -18,3 +18,7 @@ const OnscreenShell = NativeModules.OnscreenShell  ? NativeModules.OnscreenShell
 export function multiply(a: number, b: number): Promise<number> {
   return OnscreenShell.multiply(a, b);
 }
+
+export function executeCommand(command: string, callback: any) {
+  return OnscreenShell.executeCommand(command, callback);
+} 
